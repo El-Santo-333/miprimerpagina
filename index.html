@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 
 <html>
- 
- <link rel="stylesheet" type="text/css" href="Sitio Web.css">
 
- <script src="Web.js"></script>
+    <link rel="stylesheet" type="text/css" href="Sitio Web.css">
+
+    <script src="Web.js"></script>
 
     <head>
 
-     <title>Maria</title>
+        <title>Registrate</title>
 
     </head>
 
@@ -16,66 +16,45 @@
 
         <div class="container">
 
-         <h1 class="p">Bienvenidos</h1>
+            <h1 class="d">Registro de Usuario</h1>
 
-            <div class="row">
-    
-                <div class="column">
-          
-                 <h2>Esta pagina no se porque la hago</h2>
-                 <h2>Pero veamos que pasa</h2>
-            
-                </div>
-    
-            </div>
-    
-            <div class="column">
-      
-             <p>Me llamo Santino Serna</p>
-             <p>Soy Argentino, osea del mejor pais del mundo</p>
-             <p>y esta pagina la hago porque puedo</p>
-             <p>Asique deseenme suerte en que no quede tan mal</p>
+            <div class="pepe">
 
-             <button onclick="showalert()" class="s">Clic Aqui!</button>
+                <form id="myForm">
 
-             <p>En la parte de abajo vas a poder ver algunas cosas que me gustan</p>
+                    <div class="nom">
 
-            </div>
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" required>
 
-           <div class="lo">
+                    </div>
 
-            <header>
-
-                <nav>
-    
-                    <ul>
-    
-                      <li><a href="index.html">Inicio</a></li>
-    
-                      <li class="dropdown">
-    
-                        <a>Cositas</a>
+                    <div class="correo">                    
                         
-                        <div class="dropdown-content">
-    
-                          <a href="Armas.html">Armas/Vehiculos militares que me gustan</a>
-                          <a href="Criaturas.html">Criaturas mitologicas favoritas</a>
-                          <a href="Memes.html">Memes</a>
-    
-                        </div>
-    
-                      </li>
-    
-                    </ul>
-    
-                  </nav>
-    
-             </header>
+                        <label for="correo">Correo electrónico:</label>
+                        <input type="email" id="correo" required>
+                    
+                    </div>
 
-           </div>
+                    <div class="contra">
+                        
+                        <label for="contraseña">Contraseña:</label>
+                        <input type="password" id="contraseña" required>
+                    
+                    </div>
+        
+                    <button class="boton" type="submit" onclick="validarRegistro()">Registrarse</button>
+
+                </form>
+
+            </div>
+
+            <meta name="viewpoint" content="width=device-width, initial-scale=1">
+
+            <li><a href="https://www.youtube.com/watch?v=KLr8gnYpVsg">mira esto</a></li>
 
         </div>
-    
+
     </body>
 
 </html>
