@@ -64,7 +64,7 @@ document.querySelector("button.button-menu-toggle")
       // Enviar los datos del formulario o realizar otras acciones necesarias
       // Aquí puedes agregar el código adicional para procesar el registro del usuario
       
-      window.location.href = "inicio de sesion.html";
+      window.location.href = "Inicio de sesion.html";
       alert("¡Registro exitoso!");
       return true;
     }   
